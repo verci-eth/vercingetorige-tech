@@ -22,17 +22,15 @@ export default function Home() {
           </p>
           <div>
             <a
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+              href="https://twitter.com/verci_eth"
               target="_blank"
               rel="noopener noreferrer"
             >
-              By{' '}
               <Image
-                src="/vercel.svg"
-                alt="Vercel Logo"
-                className={styles.vercelLogo}
-                width={100}
-                height={24}
+                src="/twitter.svg"
+                alt="Twitter Logo"
+                width={40}
+                height={40}
                 priority
               />
             </a>
