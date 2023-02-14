@@ -17,8 +17,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.description}>
           <p>
-            Get started by editing&nbsp;
-            <code className={styles.code}>pages/index.js</code>
+            algotrader building emotionless trading strategies
           </p>
           <div>
             <a
@@ -48,10 +47,10 @@ export default function Home() {
           />
           <div className={styles.thirteen}>
             <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
+              src="/logo.png"
+              alt="logo"
+              width={75}
+              height={75}
               priority
             />
           </div>
