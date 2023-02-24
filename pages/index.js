@@ -91,23 +91,15 @@ export default function Home() {
   const renderHome = () => {
     return(
       <div className={styles.center}>
-      <Image
-        className={styles.logo}
-        src="/next.svg"
-        alt="Next.js Logo"
-        width={180}
-        height={37}
-        priority
-      />
-      <div className={styles.thirteen}>
-        <Image
-          src="/logo.png"
-          alt="logo"
-          width={75}
-          height={75}
-          priority
-        />
-      </div>
+        <div className={styles.thirteen}>
+          <Image
+            src="/logo.png"
+            alt="logo"
+            width={75}
+            height={75}
+            priority
+          />
+        </div>
     </div>
     )}
   
