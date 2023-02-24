@@ -2,15 +2,25 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
+import { useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+
+  const [invest, setInvest] = useState(false)
+
+  const handleInvest = () => {
+    // toggle invest
+    setInvest(!invest)
+    console.log(invest)
+  }
+
   return (
     <>
       <Head>
         <title>Vercingetorige</title>
-        <meta name="description" content="Quant-trader" />
+        <meta name="description" content="algotrader" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -57,11 +67,9 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-          <a
-            href=""
+          <div
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={handleInvest}
           >
             <h2 className={inter.className}>
               Invest <span>-&gt;</span>
@@ -69,7 +77,7 @@ export default function Home() {
             <p className={inter.className}>
               Find the bot that fit your needs
             </p>
-          </a>
+          </div>
 
           <a
             href=""
