@@ -161,6 +161,7 @@
   .card:hover {
     background: rgba(var(--card-rgb), 0.1);
     border: 1px solid rgba(var(--card-border-rgb), 0.15);
+    cursor: pointer;
   }
 
   .card:hover span {
