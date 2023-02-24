@@ -6,16 +6,11 @@
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
   --foreground-rgb: 255, 255, 255;
-  --background-start-rgb: 0, 0, 0;
-  --background-end-rgb: 0, 0, 0;
+  --background-start-rgb: 20, 35, 68;
+  --background-end-rgb: 20, 35, 68;
 
-  --primary-glow: radial-gradient(rgba(1, 65, 255, 0.4), rgba(1, 65, 255, 0));
-  --secondary-glow: linear-gradient(
-    to bottom right,
-    rgba(1, 65, 255, 0),
-    rgba(1, 65, 255, 0),
-    rgba(1, 65, 255, 0.3)
-  );
+  --primary-glow: radial-gradient(rgba(244, 40, 52, 0.5), rgba(145, 24, 31, 0.5));
+  --secondary-glow: radial-gradient(rgba(26, 153, 222, 0.5), rgba(7, 55, 77, 0.5));
 
   --tile-start-rgb: 2, 13, 46;
   --tile-end-rgb: 2, 5, 19;
