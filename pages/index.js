@@ -8,13 +8,140 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
+  // home state
+  const [home, setHome] = useState(true)
+  // invest state
   const [invest, setInvest] = useState(false)
+  // automate state
+  const [automate, setAutomate] = useState(false)
+  // about state
+  const [about, setAbout] = useState(false)
+  // lab state
+  const [lab, setLab] = useState(false)
 
-  const handleInvest = () => {
-    // toggle invest
-    setInvest(!invest)
-    console.log(invest)
+  // function to toggle invest
+  const toggleInvest = () => {
+    if(invest) {
+      setHome(true);
+      setInvest(false);
+      setAutomate(false);
+      setAbout(false);
+      setLab(false);
+    } else {
+      setHome(false);
+      setInvest(true);
+      setAutomate(false);
+      setAbout(false);
+      setLab(false);
+    }
   }
+
+  // function to toggle automate
+  const toggleAutomate = () => {
+    if(automate) {
+      setHome(true);
+      setInvest(false);
+      setAutomate(false);
+      setAbout(false);
+      setLab(false);
+    } else {
+      setHome(false);
+      setInvest(false);
+      setAutomate(true);
+      setAbout(false);
+      setLab(false);
+    }
+  }
+
+  // function to toggle about
+  const toggleAbout = () => {
+    if(about) {
+      setHome(true);
+      setInvest(false);
+      setAutomate(false);
+      setAbout(false);
+      setLab(false);
+    } else {
+      setHome(false);
+      setInvest(false);
+      setAutomate(false);
+      setAbout(true);
+      setLab(false);
+    }
+  }
+
+  // function to toggle lab
+  const toggleLab = () => {
+    if(lab) {
+      setHome(true);
+      setInvest(false);
+      setAutomate(false);
+      setAbout(false);
+      setLab(false);
+    } else {
+      setHome(false);
+      setInvest(false);
+      setAutomate(false);
+      setAbout(false);
+      setLab(true);
+    }
+  }
+
+  // function to render home
+  const renderHome = () => {
+    return(
+      <div className={styles.center}>
+      <Image
+        className={styles.logo}
+        src="/next.svg"
+        alt="Next.js Logo"
+        width={180}
+        height={37}
+        priority
+      />
+      <div className={styles.thirteen}>
+        <Image
+          src="/logo.png"
+          alt="logo"
+          width={75}
+          height={75}
+          priority
+        />
+      </div>
+    </div>
+    )}
+  
+  // function to render invest
+  const renderInvest = () => {
+    return(
+      <div className={styles.center}>
+        invest
+      </div>
+    )}
+
+  // function to render automate
+  const renderAutomate = () => {
+    return(
+      <div className={styles.center}>
+        automate
+      </div>
+    )}
+
+  // function to render about
+  const renderAbout = () => {
+    return(
+      <div className={styles.center}>
+        about
+      </div>
+    )}
+
+  // function to render lab
+  const renderLab = () => {
+    return(
+      <div className={styles.center}>
+        lab
+      </div>
+    )}
 
   return (
     <>
@@ -46,30 +173,16 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.center}>
-          <Image
-            className={styles.logo}
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className={styles.thirteen}>
-            <Image
-              src="/logo.png"
-              alt="logo"
-              width={75}
-              height={75}
-              priority
-            />
-          </div>
-        </div>
+        {home ? renderHome() : null}
+        {invest ? renderInvest() : null}
+        {automate ? renderAutomate() : null}
+        {about ? renderAbout() : null}
+        {lab ? renderLab() : null}
 
         <div className={styles.grid}>
           <div
             className={styles.card}
-            onClick={handleInvest}
+            onClick={toggleInvest}
           >
             <h2 className={inter.className}>
               Invest <span>-&gt;</span>
@@ -79,11 +192,9 @@ export default function Home() {
             </p>
           </div>
 
-          <a
-            href=""
+          <div
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={toggleAutomate}
           >
             <h2 className={inter.className}>
               Automate <span>-&gt;</span>
@@ -91,13 +202,11 @@ export default function Home() {
             <p className={inter.className}>
               Tell me about your strategy and let it work for you
             </p>
-          </a>
+          </div>
 
-          <a
-            href=""
+          <div
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={toggleAbout}
           >
             <h2 className={inter.className}>
               About <span>-&gt;</span>
@@ -105,13 +214,11 @@ export default function Home() {
             <p className={inter.className}>
               Let me talk a little bit about myself
             </p>
-          </a>
+          </div>
 
-          <a
-            href=""
+          <div
             className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={toggleLab}
           >
             <h2 className={inter.className}>
               Lab <span>-&gt;</span>
@@ -119,7 +226,7 @@ export default function Home() {
             <p className={inter.className}>
               I am always challenging myself to explore promising domains
             </p>
-          </a>
+          </div>
         </div>
       </main>
     </>
