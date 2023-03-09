@@ -147,13 +147,13 @@ export default function Home() {
           <p>🇰🇷 Exchange student for one semester at <a href='https://www.kaist.ac.kr/en/' target='_blank' rel="noreferrer">KAIST</a>, South Korea.</p>
           <p>👨‍💼 ERP Cloud consultant at <a href='https://www.oracle.com/' target='_blank' rel="noreferrer">Oracle</a> for 6 years.</p>
           <p>I have been implementing integrated Cloud Applications in both Supply Chain and Finance domains.</p>
-          <p>Helping customers like <a>GE Oil & Gas</a>, <a>Wind3</a>, <a>Zanetti</a>, <a>Amplifon</a> reaching their corporate goals through process improvement and digitalization.</p>
+          <p>Helping customers like <a href='https://www.ge.com/' target='_blank' rel="noreferrer">GE Oil & Gas</a>, <a href='https://www.windtre.it/' target='_blank' rel="noreferrer">Wind3</a>, <a href='https://www.mzb-group.com/' target='_blank' rel="noreferrer">Zanetti</a>, <a href='https://www.amplifon.com/' target='_blank' rel="noreferrer">Amplifon</a> reaching their corporate goals through process improvement and digitalization.</p>
         </div>
         <div className={styles.about}>
-          <p>👨‍💻 Digital Project Manager at <a href='https://www.oracle.com/' target='_blank' rel="noreferrer">Banca Progetto</a> for 1 year.</p>
+          <p>👨‍💻 Digital Project Manager at <a href='https://www.bancaprogetto.it/' target='_blank' rel="noreferrer">Banca Progetto</a> for 1 year.</p>
           <p>I have been delivering cool and innovative digital projects like Test Automation, Custom Web Apps, Instant Lending, Fiscal Credits.</p>
           <p>👨‍🔬 Quit corporate job and city life to start working remotely on algotrading full-time</p>
-          <p>🏦 Currently managing 50k€ investment portfolio</p>
+          <p>🏦 Currently managing 50k€ investment portfolio through automated trading strategies</p>
         </div>
       </div>
     )}
