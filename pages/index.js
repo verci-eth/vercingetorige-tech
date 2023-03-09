@@ -126,13 +126,13 @@ export default function Home() {
         </div>
         <div className={styles.about}>
           <p><b>METHODOLOGY</b></p>
-          <p>1️⃣ scope</p>
-          <p>we define WHAT and HOW to build:<br></br>tech stack, milestones, iterations</p>
-          <p>2️⃣ iterate</p>
-          <p>build {'>>'} demo {'>>'} repeat</p>
-          <p>3️⃣ delivery</p>
-          <p>fine tuning the solution</p>
-          <p>🥳 celebrate! we built something great</p>
+          <p>1️⃣ Scope</p>
+          <p>We define WHAT and HOW to build:<br></br>tech stack, milestones, iterations</p>
+          <p>2️⃣ Iterate</p>
+          <p>Build {'>>'} Demo {'>>'} Repeat</p>
+          <p>3️⃣ Delivery</p>
+          <p>Fine tuning the solution</p>
+          <p>🥳 Celebrate! We built something great</p>
         </div>
       </div>
     )}
