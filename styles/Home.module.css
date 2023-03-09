@@ -89,6 +89,10 @@
 
 .about p {
   margin-bottom: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .center::before {

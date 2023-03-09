@@ -118,11 +118,11 @@ export default function Home() {
   const renderAutomate = () => {
     return(
       <div className={styles.center}>
-        <div>
+        <div className={styles.about}>
           <p>Tell me about your strategy and we are going to make it work for you</p>
           <p>I can build indicators, expert advisors and bots around any financial market</p>
         </div>
-        <div>
+        <div className={styles.about}>
           <p>This is my methodology to build successful products</p>
           <p>1. scope</p>
           <p>we define what to build and how: tech stack, milestones, iterations</p>
