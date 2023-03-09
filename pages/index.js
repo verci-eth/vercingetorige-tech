@@ -136,16 +136,18 @@ export default function Home() {
   // function to render about
   const renderAbout = () => {
     return(
-      <div className={styles.about}>
-        <p>🤓 Coding since I was 16, mainly for fun.</p>
-        <p>👨‍🎓 Student of Computer-Science and Industrial Engineering at <a href='https://www.polimi.it/' target='_blank' rel="noreferrer">Politecnico di Milano</a>.</p>
-        <p>🇰🇷 Exchange student for one semester at <a href='https://www.kaist.ac.kr/en/' target='_blank' rel="noreferrer">KAIST</a>, South Korea.</p>
-        <p>👨‍💼 ERP Cloud consultant at <a href='https://www.oracle.com/' target='_blank' rel="noreferrer">Oracle</a> for 6 years.</p>
-        <p>I have been implementing integrated Cloud Applications in both Supply Chain and Finance domains.</p>
-        <p>Helping customers like <a>GE Oil & Gas</a>, <a>Wind3</a>, <a>Zanetti</a>, <a>Amplifon</a> reaching their corporate goals through process improvement and digitalization.</p>
-        <p>👨‍💻 Digital Project Manager at <a href='https://www.oracle.com/' target='_blank' rel="noreferrer">Banca Progetto</a> for 1 year.</p>
-        <p>I have been delivering cool and innovative digital projects like Test Automation, Custom Web Apps, Instant Lending, Fiscal Credits.</p>
-        <p>👨‍🔬 Quit corporate job and city life to start working remotely on algotrading full-time</p>
+      <div className={styles.center}>
+        <div className={styles.about}>
+          <p>🤓 Coding since I was 16, mainly for fun.</p>
+          <p>👨‍🎓 Student of Computer-Science and Industrial Engineering at <a href='https://www.polimi.it/' target='_blank' rel="noreferrer">Politecnico di Milano</a>.</p>
+          <p>🇰🇷 Exchange student for one semester at <a href='https://www.kaist.ac.kr/en/' target='_blank' rel="noreferrer">KAIST</a>, South Korea.</p>
+          <p>👨‍💼 ERP Cloud consultant at <a href='https://www.oracle.com/' target='_blank' rel="noreferrer">Oracle</a> for 6 years.</p>
+          <p>I have been implementing integrated Cloud Applications in both Supply Chain and Finance domains.</p>
+          <p>Helping customers like <a>GE Oil & Gas</a>, <a>Wind3</a>, <a>Zanetti</a>, <a>Amplifon</a> reaching their corporate goals through process improvement and digitalization.</p>
+          <p>👨‍💻 Digital Project Manager at <a href='https://www.oracle.com/' target='_blank' rel="noreferrer">Banca Progetto</a> for 1 year.</p>
+          <p>I have been delivering cool and innovative digital projects like Test Automation, Custom Web Apps, Instant Lending, Fiscal Credits.</p>
+          <p>👨‍🔬 Quit corporate job and city life to start working remotely on algotrading full-time</p>
+        </div>
       </div>
     )}
 

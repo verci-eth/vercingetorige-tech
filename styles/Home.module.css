@@ -77,13 +77,12 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  padding: 4rem 0;
+  padding: 2rem 0;
 }
 
 .about {
   text-align: justify;
   font-size: 0.9rem;
-  margin: 1.5rem;
   max-width: 25rem;
   min-width: 10rem;
 }
@@ -214,7 +213,7 @@
   }
 
   .center {
-    padding: 8rem 0 6rem;
+    padding: 1rem 0 6rem;
   }
 
   .center::before {
