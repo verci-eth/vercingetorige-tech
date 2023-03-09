@@ -72,6 +72,33 @@
   max-width: 30ch;
 }
 
+.lab {
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--lab-rgb), 0);
+  border: 1px solid rgba(var(--lab-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.lab span {
+  display: inline-block;
+  transition: transform 200ms;
+}
+
+.lab h2 {
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+  color: #1A99DE;
+}
+
+.lab p {
+  margin: 0;
+  opacity: 0.6;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  max-width: 30ch;
+}
+
 .center {
   display: flex;
   justify-content: center;
@@ -183,6 +210,16 @@
   .card:hover span {
     transform: translateX(4px);
   }
+
+  .lab:hover {
+    background: rgba(var(--lab-rgb), 0.1);
+    border: 1px solid rgba(var(--lab-border-rgb), 0.15);
+    cursor: pointer;
+  }
+
+  .lab:hover span {
+    transform: translateX(4px);
+  }
 }
 
 @media (prefers-reduced-motion) {
@@ -191,6 +228,10 @@
   }
 
   .card:hover span {
+    transform: none;
+  }
+
+  .lab:hover span {
     transform: none;
   }
 }
@@ -213,6 +254,14 @@
   }
 
   .card h2 {
+    margin-bottom: 0.5rem;
+  }
+
+  .lab {
+    padding: 1rem 2.5rem;
+  }
+
+  .lab h2 {
     margin-bottom: 0.5rem;
   }
 

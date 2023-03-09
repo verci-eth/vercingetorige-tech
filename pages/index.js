@@ -163,17 +163,17 @@ export default function Home() {
     return(
       <div className={styles.center}>
         <div className={styles.grid}>
-          <div className={styles.card}
+          <div className={styles.lab}
           onClick={() => window.open(link_dgames, '_blank')}>
             <h2 className={inter.className}>dGames <span>-&gt;</span></h2>
             <p className={inter.className}>decentralized rock paper scissors</p>
           </div>
-          <div className={styles.card}
+          <div className={styles.lab}
           onClick={() => window.open(link_action, '_blank')}>
             <h2 className={inter.className}>ACTION <span>-&gt;</span></h2>
             <p className={inter.className}>NFT collection leveraging on-chain data</p>
           </div>
-          <div className={styles.card}
+          <div className={styles.lab}
           onClick={() => window.open(link_writer, '_blank')}>
             <h2 className={inter.className}>writer <span>-&gt;</span></h2>
             <p className={inter.className}>prompt generator to talk better to AI</p>
