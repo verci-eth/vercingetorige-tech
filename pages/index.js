@@ -5,6 +5,9 @@ import styles from '@/styles/Home.module.css'
 import { useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
+const link_action = 'https://verci-action-nft.netlify.app/'
+const link_dgames = 'https://dgames.dev/'
+const link_writer = 'https://writer.up.railway.app/'
 
 export default function Home() {
 
@@ -155,7 +158,23 @@ export default function Home() {
   const renderLab = () => {
     return(
       <div className={styles.center}>
-        lab
+        <div className={styles.grid}>
+          <div className={styles.card}
+          onClick={() => window.open(link_dgames, '_blank')}>
+            <h2 className={inter.className}>dGames <span>-&gt;</span></h2>
+            <p className={inter.className}>decentralized rock paper scissors</p>
+          </div>
+          <div className={styles.card}
+          onClick={() => window.open(link_action, '_blank')}>
+            <h2 className={inter.className}>ACTION <span>-&gt;</span></h2>
+            <p className={inter.className}>NFT collection leveraging on-chain data</p>
+          </div>
+          <div className={styles.card}
+          onClick={() => window.open(link_writer, '_blank')}>
+            <h2 className={inter.className}>writer <span>-&gt;</span></h2>
+            <p className={inter.className}>prompt generator to talk better to AI</p>
+          </div>
+        </div>
       </div>
     )}
 
