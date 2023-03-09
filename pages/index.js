@@ -120,19 +120,19 @@ export default function Home() {
     return(
       <div className={styles.center}>
         <div className={styles.about}>
-          <p>Tell me about your strategy and we are going to make it work for you</p>
+          <p>Tell me about your strategy and I will make it work for you!</p>
           <p>I can build indicators, expert advisors and bots around any financial market</p>
           <button onClick={() => window.open(link_hire, '_blank')}>hire me</button>
         </div>
         <div className={styles.about}>
-          <p>This is my methodology to build successful products</p>
-          <p>1. scope</p>
-          <p>we define what to build and how: tech stack, milestones, iterations</p>
-          <p>2. iterate</p>
+          <p><b>METHODOLOGY</b></p>
+          <p>1️⃣ scope</p>
+          <p>we define what and how to build: tech stack, milestones, iterations</p>
+          <p>2️⃣ iterate</p>
           <p>we build {'>>'} we demo {'>>'} repeat</p>
-          <p>3. delivery</p>
+          <p>3️⃣ delivery</p>
           <p>fine tuning the solution</p>
-          <p>celebrate! we built something great</p>
+          <p>🥳 celebrate! we built something great</p>
         </div>
       </div>
     )}
@@ -148,9 +148,12 @@ export default function Home() {
           <p>👨‍💼 ERP Cloud consultant at <a href='https://www.oracle.com/' target='_blank' rel="noreferrer">Oracle</a> for 6 years.</p>
           <p>I have been implementing integrated Cloud Applications in both Supply Chain and Finance domains.</p>
           <p>Helping customers like <a>GE Oil & Gas</a>, <a>Wind3</a>, <a>Zanetti</a>, <a>Amplifon</a> reaching their corporate goals through process improvement and digitalization.</p>
+        </div>
+        <div className={styles.about}>
           <p>👨‍💻 Digital Project Manager at <a href='https://www.oracle.com/' target='_blank' rel="noreferrer">Banca Progetto</a> for 1 year.</p>
           <p>I have been delivering cool and innovative digital projects like Test Automation, Custom Web Apps, Instant Lending, Fiscal Credits.</p>
           <p>👨‍🔬 Quit corporate job and city life to start working remotely on algotrading full-time</p>
+          <p>🏦 Currently managing 50k€ investment portfolio</p>
         </div>
       </div>
     )}
