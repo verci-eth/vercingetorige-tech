@@ -121,15 +121,15 @@ export default function Home() {
       <div className={styles.center}>
         <div className={styles.about}>
           <p>Tell me about your strategy and I will make it work for you!</p>
-          <p>I can build indicators, expert advisors and bots around any financial market</p>
+          <p>I can build:</p><ul><li>indicators</li><li>expert advisors</li><li>bots</li></ul><p>around any financial market</p>
           <button onClick={() => window.open(link_hire, '_blank')}>hire me</button>
         </div>
         <div className={styles.about}>
           <p><b>METHODOLOGY</b></p>
           <p>1️⃣ scope</p>
-          <p>we define what and how to build: tech stack, milestones, iterations</p>
+          <p>we define WHAT and HOW to build:<br></br>tech stack, milestones, iterations</p>
           <p>2️⃣ iterate</p>
-          <p>we build {'>>'} we demo {'>>'} repeat</p>
+          <p>build {'>>'} demo {'>>'} repeat</p>
           <p>3️⃣ delivery</p>
           <p>fine tuning the solution</p>
           <p>🥳 celebrate! we built something great</p>
