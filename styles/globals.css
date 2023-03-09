@@ -57,6 +57,14 @@ a {
   text-decoration: none;
 }
 
+button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px;
+  background-color: #1A99DE;
+  margin-bottom: 50px;
+}
+
 html {
   color-scheme: dark;
 }

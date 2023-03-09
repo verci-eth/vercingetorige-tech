@@ -8,6 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 const link_action = 'https://verci-action-nft.netlify.app/'
 const link_dgames = 'https://dgames.dev/'
 const link_writer = 'https://writer.up.railway.app/'
+const link_hire = 'https://cal.com/verci'
 
 export default function Home() {
 
@@ -121,6 +122,7 @@ export default function Home() {
         <div className={styles.about}>
           <p>Tell me about your strategy and we are going to make it work for you</p>
           <p>I can build indicators, expert advisors and bots around any financial market</p>
+          <button onClick={() => window.open(link_hire, '_blank')}>hire me</button>
         </div>
         <div className={styles.about}>
           <p>This is my methodology to build successful products</p>
@@ -130,8 +132,7 @@ export default function Home() {
           <p>we build {'>>'} we demo {'>>'} repeat</p>
           <p>3. delivery</p>
           <p>fine tuning the solution</p>
-          <p>celebrate</p>
-          <p>we built something great</p>
+          <p>celebrate! we built something great</p>
         </div>
       </div>
     )}
