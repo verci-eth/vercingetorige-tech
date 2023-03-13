@@ -30,6 +30,8 @@
   --card-border-rgb: 200, 200, 200;
   --lab-rgb: 244, 40, 52;
   --lab-border-rgb: 200, 200, 200;
+  --bot-rgb: 244, 40, 52;
+  --bot-border-rgb: 200, 200, 200;
 }
 
 * {

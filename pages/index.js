@@ -9,6 +9,7 @@ const link_action = 'https://verci-action-nft.netlify.app/'
 const link_dgames = 'https://dgames.dev/'
 const link_writer = 'https://writer.up.railway.app/'
 const link_hire = 'https://cal.com/verci'
+const link_pivopo = null
 
 export default function Home() {
 
@@ -111,7 +112,23 @@ export default function Home() {
   const renderInvest = () => {
     return(
       <div className={styles.center}>
-        invest
+        <div className={styles.grid}>
+          <div className={styles.bot}
+          onClick={() => window.open(link_pivopo, '_blank')}>
+            <h2 className={inter.className}>Pivopo <span>-&gt;</span></h2>
+            <p className={inter.className}>description of Pivopo bot</p>
+          </div>
+          <div className={styles.bot}
+          onClick={() => null}>
+            <h2 className={inter.className}>Grid <span>-&gt;</span></h2>
+            <p className={inter.className}>Spot, Futures and Moon grid bots</p>
+          </div>
+          <div className={styles.bot}
+          onClick={() => null}>
+            <h2 className={inter.className}>Recurring Buy <span>-&gt;</span></h2>
+            <p className={inter.className}>Spot and Futures DCA with or without Martingale</p>
+          </div>
+        </div>
       </div>
     )}
 
