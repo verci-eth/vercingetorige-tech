@@ -114,17 +114,17 @@ export default function Home() {
       <div className={styles.center}>
         <div className={styles.grid}>
           <div className={styles.bot}
-          onClick={() => window.open(link_pivopo, '_blank')}>
+          onClick={() => window.open(link_hire, '_blank')}>
             <h2 className={inter.className}>Pivopo <span>-&gt;</span></h2>
-            <p className={inter.className}>description of Pivopo bot</p>
+            <p className={inter.className}>Grid bot that trades around custom daily Pivot Points calculated based on market volatility</p>
           </div>
           <div className={styles.bot}
-          onClick={() => null}>
+          onClick={() => window.open(link_hire, '_blank')}>
             <h2 className={inter.className}>Grid <span>-&gt;</span></h2>
             <p className={inter.className}>Spot, Futures and Moon grid bots</p>
           </div>
           <div className={styles.bot}
-          onClick={() => null}>
+          onClick={() => window.open(link_hire, '_blank')}>
             <h2 className={inter.className}>Recurring Buy <span>-&gt;</span></h2>
             <p className={inter.className}>Spot and Futures DCA with or without Martingale</p>
           </div>
@@ -137,19 +137,23 @@ export default function Home() {
     return(
       <div className={styles.center}>
         <div className={styles.about}>
-          <p>Tell me about your strategy and I will make it work for you!</p>
-          <p>I can build:</p><ul><li>indicators</li><li>expert advisors</li><li>bots</li></ul><p>around any financial market</p>
-          <button onClick={() => window.open(link_hire, '_blank')}>hire me</button>
+          <p>If you want to automate your trading strategy or part of it, I am here to help!</p>
+          <p>Talking about <b>Forex, Stock and Commodities</b> markets, I am specialized in <a href='https://www.metatrader5.com/' target='_blank' rel="noreferrer">Metatrader</a> platforms for which I can build <b>INDICATORS, EXPERTS, SCRIPTS</b> for any broker.</p>
+          <p>Talking about <b>Crypto</b> market, I can build custom <b>BOT and TOOL</b> for the main centralized exchanges.</p>
+          <p>Everything can be easily integrated with a <b>Telegram Bot</b> to have all the information you need on the go!</p>
+          <p>Our knowledge is the limit! ✨</p>
+          <button className='asd' onClick={() => window.open(link_hire, '_blank')}>hire me</button>
         </div>
         <div className={styles.about}>
           <p><b>METHODOLOGY</b></p>
-          <p>1️⃣ Scope</p>
-          <p>We define WHAT and HOW to build:<br></br>tech stack, milestones, iterations</p>
-          <p>2️⃣ Iterate</p>
-          <p>Build {'>>'} Demo {'>>'} Repeat</p>
-          <p>3️⃣ Delivery</p>
-          <p>Fine tuning the solution</p>
-          <p>🥳 Celebrate! We built something great</p>
+          <p>1️⃣ Scope<br>
+            </br>| We define WHAT and HOW to build:<br>
+            </br>| tech stack, milestones, iterations</p>
+          <p>2️⃣ Iterate<br>
+            </br>| Build {'>>'} Demo {'>>'} Repeat</p>
+          <p>3️⃣ Delivery<br>
+            </br>| Fine-tuning the solution</p>
+          <p>🥳 Celebrate! We built something great together 🤝</p>
         </div>
       </div>
     )}
@@ -161,14 +165,14 @@ export default function Home() {
         <div className={styles.about}>
           <p>🤓 Coding since I was 16, mainly for fun.</p>
           <p>👨‍🎓 Student of Computer-Science and Industrial Engineering at <a href='https://www.polimi.it/' target='_blank' rel="noreferrer">Politecnico di Milano</a>.</p>
-          <p>🇰🇷 Exchange student for one semester at <a href='https://www.kaist.ac.kr/en/' target='_blank' rel="noreferrer">KAIST</a>, South Korea.</p>
+          <p>🇰🇷 Exchange student at <a href='https://www.kaist.ac.kr/en/' target='_blank' rel="noreferrer">KAIST</a>, South Korea.</p>
           <p>👨‍💼 ERP Cloud consultant at <a href='https://www.oracle.com/' target='_blank' rel="noreferrer">Oracle</a> for 6 years.</p>
           <p>I have been implementing integrated Cloud Applications in both Supply Chain and Finance domains.</p>
           <p>Helping customers like <a href='https://www.ge.com/' target='_blank' rel="noreferrer">GE Oil & Gas</a>, <a href='https://www.windtre.it/' target='_blank' rel="noreferrer">Wind3</a>, <a href='https://www.mzb-group.com/' target='_blank' rel="noreferrer">Zanetti</a>, <a href='https://www.amplifon.com/' target='_blank' rel="noreferrer">Amplifon</a> reaching their corporate goals through process improvement and digitalization.</p>
         </div>
         <div className={styles.about}>
           <p>👨‍💻 Digital Project Manager at <a href='https://www.bancaprogetto.it/' target='_blank' rel="noreferrer">Banca Progetto</a> for 1 year.</p>
-          <p>I have been delivering cool and innovative digital projects like Test Automation, Custom Web Apps, Instant Lending, Fiscal Credits.</p>
+          <p>I have been delivering cool and innovative digital projects like Test Automation, Custom Web Apps, Instant Lending, Tax Credits.</p>
           <p>👨‍🔬 Quit corporate job and city life to start working remotely on algotrading full-time</p>
           <p>🏦 Currently managing 50k€ investment portfolio through automated trading strategies</p>
         </div>
